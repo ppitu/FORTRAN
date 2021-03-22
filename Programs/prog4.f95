@@ -18,7 +18,5 @@ PROGRAM p4
                         WRITE(UNIT=*, FMT="(A25)") "to nie lato ani wiosna"
         END SELECT
 
-
-
         STOP
 END PROGRAM p4
