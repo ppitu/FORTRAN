@@ -1,0 +1,24 @@
+PROGRAM p30
+    IMPLICIT NONE
+    REAL :: a
+    DOUBLE PRECISION :: b; INTEGER :: c; LOGICAL :: d; CHARACTER :: e
+    REAL(KIND=SELECTED_REAL_KIND(P=6, R=30)) :: f
+    REAL(KIND=SELECTED_REAL_KIND(P=15, R=30)) :: g
+    REAL(KIND=SELECTED_REAL_KIND(P=15, R=1000)) :: h
+    REAL(KIND=SELECTED_REAL_KIND(P=18, R=1000)) :: j
+    REAL(KIND=SELECTED_REAL_KIND(P=18, R=2000)) :: i
+    REAL(KIND=SELECTED_REAL_KIND(P=18, R=4000)) :: k
+
+    PRINT *, 'TYPE REAL         KIND=', KIND(a)
+    PRINT *, 'TYPE REAL         KIND=', KIND(b)
+    PRINT *, 'TYPE REAL         KIND=', KIND(c)
+    PRINT *, 'TYPE REAL         KIND=', KIND(d)
+    PRINT *, 'TYPE REAL         KIND=', KIND(e)
+    PRINT *, 'TYPE REAL         KIND=', KIND(f)
+    PRINT *, 'TYPE REAL         KIND=', KIND(g)
+    PRINT *, 'TYPE REAL         KIND=', KIND(h)
+    PRINT *, 'TYPE REAL         KIND=', KIND(i)
+    PRINT *, 'TYPE REAL         KIND=', KIND(j)
+    PRINT *, 'TYPE REAL         KIND=', KIND(k)
+
+END PROGRAM p30
